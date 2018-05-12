@@ -1,0 +1,545 @@
+header, nav, #search_zone,  #search_results, footer
+ {
+     position:relative;
+     top:0;
+     right:0;
+     left:0;
+     background:var(--primarycolor);
+     padding:25px;
+     padding-top:30px;
+     padding-bottom:30px;
+     -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    color:#fff;
+    text-align:center;
+ }
+#geolocData
+ {
+     display:none !important;
+ }
+/*Hack pour corriger le fait que Edge ne gere pas encore les variables en css*/
+@supports (-ms-ime-align:auto)
+{
+  header, nav, #search_zone,  #search_results, footer
+   {
+       background:#263238;
+   }
+  #right_float span:hover
+   {
+       background:#1e88e5;
+   }
+ #menu span:first-child, .firstIconSvg
+  {
+      background:#1e88e5 !important;
+  }
+#search_zone
+  {
+     border-top:3px solid #1e88e5;
+  }
+#menu span:hover, #menu span:active, #menu span:hover .iconSvg, #menu span:active .iconSvg
+  {
+      background:#1e88e5;
+  }
+.text::before
+  {
+      color:#1e88e5;
+  }
+#title_recherch
+ {
+     background:#1e88e5;
+ }
+#search_simple
+ {
+     background:#1e88e5;
+ }
+#price
+ {
+     background:#1e88e5;
+ }
+#body_card span
+ {
+     color:#1e88e5;
+ }
+footer span:hover, footer span:active
+ {
+     color:#1e88e5;
+ }
+.entetePopUp
+ {
+    background:#1e88e5;
+ }
+.inputfile + label, #posterAnnonce
+ {
+   background-color:#1e88e5;
+ }
+#actionToast
+ {
+   
+   color:#1e88e5;
+ }
+}
+#id_Logo
+ {
+     float:left;
+     margin-top:-12px;
+     font-weight:bold;
+     font-size:1.4rem;
+ }
+#right_float
+ {
+     float:right;
+     margin-top:-12px;
+ }
+#right_float span
+ {
+   margin-left:5px;
+   display:inline-block;
+   font-size:0.8rem;
+   padding:5px;
+   padding-left:10px;
+   padding-right:10px;
+   border-radius:3px;
+   background:#37474f ;
+   text-align:center;
+   cursor:pointer;
+ }
+#right_float span:hover
+ {
+     background:var(--secondarycolor);
+     transition:background ease .3s;
+ }
+#en, #fr
+ {
+     margin-left:0 !important;
+     box-sizing:border-box;
+ }
+#en
+ {
+     border-radius:3px 0px 0px 3px !important;
+     margin-left:3px !important;
+ }
+#en:hover
+ {
+    background:#ef5350 !important;
+ }
+#fr
+ {
+     border-radius:0px 3px 3px 0px !important;
+ }
+#menu
+ {
+     background:#eeeeee;
+     color:#212121;
+     display:flex;
+     flex-direction:row;
+     justify-content:center;
+     padding:10px !important;
+ }
+#menu span:first-child, .firstIconSvg
+ {
+      background:var(--secondarycolor) !important;
+      color:#fff !important;
+      fill:#fff !important;
+ }
+#menu span
+ {
+   border-radius:5px;
+   padding:10px;
+   cursor:pointer;
+   font-size:0.9rem;
+   margin-left:20px;
+ }
+#menu span:last-child
+ {
+    margin-left:0 !important;
+ }
+#logo
+ {
+     background:url(../img/logo.jpg) !important;
+     
+ }
+#menu span:hover, #menu span:active, #menu span:hover .iconSvg, #menu span:active .iconSvg
+ {
+     color:#fff;
+     background:var(--secondarycolor);
+     fill:#fff;
+ }
+.iconSvg
+ {
+   display:inline-block !important;
+   vertical-align:middle !important;
+ }
+/* *******************************Zone du slider*************************************/
+ #wrapperSlider
+  {
+  	height:450px;
+    overflow:hidden;
+    box-sizing:border-box;
+    contain:layout;
+    position:relative;
+  }
+ #slider
+  {
+  	height:450px;
+  	display:flex;
+  	flex-direction:row;
+  	transition:transform ease 0.5s;
+  	width:100%;
+    
+  }
+#slider div
+ {
+ 	width:100%;
+ 	height:100%;
+ 	flex-shrink: 0;
+    transition:transform ease-in-out 0.3s;
+ 	
+ }
+.text
+ {
+ 	color:#424242;
+ 	float:left;
+ 	font-weight:bold;
+ 	transform:translate3d(100px,160px,0);
+ 	font-size:1.5rem;
+ }
+.mobileText
+ {
+     transform:translate3d(20px,160px,0) !important;
+ }
+.text::before
+ {
+ 	display:block;
+ 	color:var(--secondarycolor);
+ 	font-weight:bold;
+ 	font-size:2rem;
+ }
+.text::after
+ {
+ 	display:block;
+ 	color:#212121;
+    font-size:1.2rem;
+ }
+#text1::before
+ {
+ 	content:"SAMSUNG GALAXY S7 A VENDRE";
+ 	
+ }
+#text1::after
+ {
+ 	content:"200000 FCFA";
+ }
+#text2::before
+ {
+ 	content:"VILLA A LOUER";
+ }
+#text2::after
+ {
+ 	content:"500000 FCFA / MOIS";
+ }
+#text3::before
+ {
+ 	content:"VOITURE A VENDRE NEUVE";
+ }
+#text3::after
+ {
+ 	content:"5000000 FCFA";
+ }
+#text4::before
+ {
+ 	content:"RECHERCHE D'UNE MENAGERE";
+ }
+#text4::after
+ {
+ 	content:"35000 FCFA / MOIS";
+ }
+#slider1
+ {
+   background:url(../img/slider/slider1.jpg);
+ }
+#slider2
+ {
+   background:url(../img/slider/slider2.jpg);
+ }
+#slider3
+ {
+   background:url(../img/slider/slider3.jpg);
+ }
+#slider4
+ {
+ 	background:url(../img/slider/slider4.jpg);
+ }
+#wrapperSlider span
+ {
+ 	display:inline-block;
+ 	position:absolute;
+ 	top:50%;
+ 	width:54px;
+ 	height:54px;
+ 	box-sizing:border-box;
+ 	background-position:center !important;
+ 	background-size:cover !important;
+ 	margin-top:-27px;
+ 	cursor:pointer;
+ 	opacity:0.5;
+ }
+#wrapperSlider span:hover
+ {
+ 	opacity:1;
+ }
+#lArrow
+ {
+    background:url(../icons/left-arrow.svg);
+    margin-left:15px;
+ }
+#rArrow
+ {
+ 	background:url(../icons/right-arrow.svg);
+ 	margin-right:15px;
+ 	right:0;
+ }
+ /******************** Fin du slider *************************************/
+ /******************** Zone de recherche ********************************/
+ #title_recherch
+  {
+      position:relative;
+      left:50%;
+      padding:15px;
+      width:200px;
+      height:10px;
+      background:var(--secondarycolor);
+      border-radius:3px 3px 0px 0px;
+      margin-left:-115px;
+      margin-top:-40px;
+      text-align:center;
+      color:#fff;
+      font-size:0.8rem;
+      /*box-sizing:border-box;*/
+  }
+ #search_zone
+  {
+      /*background:#212121;*/
+      border-top:3px solid var(--secondarycolor);
+      padding-top:25px;
+      padding-bottom:25px;
+      display:flex !important;
+      flex-direction:row !important;
+      justify-content:center !important;
+      box-shadow:none !important;
+  }
+ #search_zone *
+  {
+      margin-left:15px;
+  }
+#search_simple
+ {
+     background:var(--secondarycolor);
+ }
+#search_simple::before, #search_geolocation::before
+ {
+     display:inline-block;
+     vertical-align:middle;
+     margin-right:5px;
+ }
+#search_simple::before
+ {
+     content:url(../icons/search.svg);
+ }
+#search_geolocation::before
+ {
+     content:url(../icons/location.svg);
+ }
+#search_geolocation
+ {
+     background:#ef5350;
+ }
+#search_results
+ {
+     background:#eeeeee;
+     display:flex;
+     flex-direction:row;
+     justify-content:flex-start;
+     flex-wrap: wrap;
+ }
+.card
+ {
+   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); 
+   background-color: #fff !important;
+   border-radius: 3px !important;
+  -webkit-user-select: none;
+  user-select:none;
+   margin-top:10px;
+   width:15vw;
+   box-sizing:border-box;
+   text-align:left;
+   -webkit-transform: translate3d(0,0,0) !important;
+   transform: translate3d(0,0,0) !important;
+ -webkit-backface-visibility: hidden !important;
+  backface-visibility:hidden !important;
+  margin-left:10px;
+  cursor:pointer;
+ }
+.enteteCard
+ {
+   
+    height:150px;
+    border-radius:3px 3px 0px 0px;
+    background:url(../img/slider/slider4.jpg);
+    text-align:right;
+    
+ }
+#price
+ {
+     font-size:0.7rem;
+     padding:5px;
+     background:var(--secondarycolor);
+     display:inline-block;
+     margin-top:65px;
+     border-radius:50px 0px 0px 50px;
+     border-top:1px solid #f5f5f5;
+     border-bottom:1px solid #f5f5f5;
+     border-left:1px solid #f5f5f5;
+}
+#body_card
+ {
+     padding:15px;
+     color:#757575;
+     text-align:center;
+     font-size:0.9rem;
+ }
+#body_card span
+ {
+     color:var(--secondarycolor);
+     margin-top:10px;
+     font-weight:bold;
+     display:inline-block;
+ }
+/****** Ces regles css seront a enlevé ainsi que dans le html */
+ .xtrabg1
+  {
+      background:url(../img/slider/slider1.jpg) !important;
+      background-position:center !important;
+     background-size:cover !important;
+  }
+.xtrabg2
+  {
+      background:url(../img/slider/slider2.jpg) !important;
+      background-position:center !important;
+     background-size:cover !important;
+  }
+  .xtrabg3
+  {
+      background:url(../img/slider/slider3.jpg) !important;
+      background-position:center !important;
+      background-size:cover !important;
+  }
+  
+/****/
+footer
+ {
+     text-align:left !important;
+ }
+footer span
+ {
+   margin-left:10px;
+   font-size:0.75rem;
+ }
+footer span:hover, footer span:active
+ {
+     color:var(--secondarycolor);
+     cursor:pointer;
+ }
+ /******************** Debut Media queries pour les petits et moyens ecrans *******************************************/
+ @media screen and (max-device-width: 1023px)
+  {
+      #id_Logo
+       {
+         float:none !important;
+         display:block;
+       }
+      #right_float
+       {
+           float:none !important;
+           margin-top:20px;
+       }
+      #menu
+       {
+           flex-direction:column !important;
+           padding-left:0px !important;
+           padding-right:0px !important;
+           padding-bottom:0px !important;
+           padding-top:0px !important;
+       }
+      #menu span
+       {
+           margin-left:0 !important;
+           padding-top:15px !important;
+           padding-bottom:15px !important;
+           padding-left:0 !important;
+           padding-right:0 !important;
+           text-align:center;
+           border-bottom:1px solid #ccc;
+           border-radius:0 !important;
+       }
+     #search_zone
+      {
+          flex-direction:column !important;
+      }
+     #search_zone *
+      {
+          margin-left:0 !important;
+          margin-top:15px !important;
+      }
+     input, select
+      {
+          width:100% !important;
+      }
+    footer span
+     {
+         display:block;
+         margin-top:20px;
+         margin-left:0 !important;
+     }
+      
+  }
+@media screen and (min-device-width: 768px) and (max-device-width: 1023px)
+ {
+     #search_results
+     {
+       justify-content:center;
+       flex-wrap: wrap;
+     }
+    .card
+     {
+         width:325px !important;
+     }
+ }
+@media screen and (min-device-width: 1024px) and (max-device-width: 1365px)
+ {
+      #search_results
+     {
+       justify-content:flex-start;
+       flex-wrap: wrap;
+     }
+    .card
+     {
+         width:30.5vw !important;
+     }
+ }
+@media screen and (max-device-width: 767px)
+ {
+     #search_results
+      {
+          /*flex-direction:column !important;
+          justify-content:center !important;*/
+          display:block !important;
+      }
+    .card
+     {
+         margin:0 auto !important;
+         margin-top:10px !important;
+         width:85vw !important;
+         display:block !important;
+     }
+ }

@@ -1,0 +1,4 @@
+<?php
+$arrayToCheckCategorie = array("Téléphones & Tablettes", "Vêtements", "Chaussures", "Maison", "Terrain", "Télévision", "Services", "Produits de beauté", "Véhicule", "Ordinateur & Accessoires", "Console de jeux", "Autre");
+$arrayToCheckLocation = array("Autre", "Douala", "Yaoundé", "Garoua", "Bamenda", "Bafoussam", "Maroua", "Ngaoundéré", "Kribi", "Ebolowa", "Limbé", "Edéa", "Nkongsamba", "Mbalmayo", "Dschang", "Foumban", "Kousserie", "Kumbo", "Tiko", "Bertoua", "Kumba", "Banganté", "Mbouda", "Sangmélima", "Bafang", "Baham", "Mokolo", "Yokadouma", "Yagoua", "Loum", "Mamfé", "Yabassi", "Tibati", "Banyo", "Mora", "Meiganga", "Wum", "Mbanga", "Bénoué", "Melong", "Foumbot", "Guider", "Bafia", "Obala", "Akonolinga", "Nanga-Eboko", "Batouri", "Ndop", "Ambam", "Tcholliré", "Garoua-Boulaï", "Fontem");
+?>

@@ -1,0 +1,8 @@
+
+Formulaire de dépôt d'annonce :
+-choisissez une catégorie 
+-nom de l'objet(le nom doit être assez court)
+-prix
+-localisation 
+-description de l'objet
+-les 3 photos
